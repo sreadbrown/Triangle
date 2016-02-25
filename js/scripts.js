@@ -1,17 +1,20 @@
 var triangletracker = function(a,b,c) {
-  var sumab = a+b;
-  var sumbc = b+c;
-  var sumca = c+a;
-    if ((sumab <= c) || (sumbc <= a) || (sumca <= b)) {
-      return "not a triangle"
-    }
-    else if ((a === b) && (a !== c)) {
-      return "isoceles"
-    } else if ((b === c) && (b !== a)) {
-      return "isoceles"
-    } else if ((c === a) && (a !== b)) {
-      return "isoceles"
-    }
+  // if (((a+b) <= c) || ((b+c) <= a) || ((a+c) <= b)) {
+  //   return "not a triangle"
+  // }
+
+  // if ((a === b) && (b === c)) {
+  //   return "equilateral"
+  // }
+
+  // if ((a === b) && (a !== c) || (b === c) && (b !== a) || (c === a) && (a !== b)) {
+  //   return "isoceles"
+  // }
+
+  if (true) {
+
+  }
+
 };
 
 $(document).ready(function() {
